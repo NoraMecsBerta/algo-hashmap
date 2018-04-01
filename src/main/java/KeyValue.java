@@ -2,29 +2,29 @@
 
 public class KeyValue <K,V> {
 
-    public String key;
-    public Integer value;
+    public K key;
+    public V value;
 
 
-    public KeyValue(String key, Integer value) {
+    public KeyValue(K key, V value) {
         this.key = key;
         this.value = value;
     }
 
-    public String getKey() {
+    public K getKey() {
 
         return key;
     }
 
-    public void setKey(String key) {
+    public void setKey(K key) {
         this.key = key;
     }
 
-    public Integer getValue() {
+    public V getValue() {
         return value;
     }
 
-    public void setValue(Integer value) {
+    public void setValue(V value) {
         this.value = value;
     }
 
